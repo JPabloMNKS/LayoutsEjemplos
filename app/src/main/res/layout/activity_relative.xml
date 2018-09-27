@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <ImageView
+        android:id="@+id/img_game_thrones"
+        android:src="@drawable/game_of_thrones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_toEndOf="@+id/img_game_thrones"
+        android:textSize="25sp"
+        android:text="@string/nombre_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:hint="Ingrese nombre" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_below="@id/img_game_thrones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:text="@string/masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/femenino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_game_thrones"
+        android:text="@string/check_correcto"/>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        android:layout_below="@id/radio_group"/>
+
+    <TextView
+        android:id="@+id/text_prueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Mover"/>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/text_prueba"
+        android:text="asdsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button01"
+        android:layout_toStartOf="@+id/null"
+        android:text="CheckBox" />
+
+
+</RelativeLayout>

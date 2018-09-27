@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="login_text">Mi Login App</string>
+    <string name="login_name">Nombre</string>
+    <string name="ingrese_nombre">Ingrese su nombre</string>
+    <string name="login_correo">Correo</string>
+    <string name="ingrese_correo">Ingrese su correo</string>
+    <string name="login_contraseña">Contraseña</string>
+    <string name="ingrese_contrasena">Ingrese su contraseñ4</string>
+    <string name="login_numero">Numero</string>
+    <string name="ingrese_numero">Ingrese su numero</string>
+    <string name="nombre_game">Ella se llama</string>
+    <string name="check_correcto">Correcto</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="recomendacion">Ya no se deberia usar el absolute layout y como se puede ver en el xml lo tacha el absolute layout porque esta obsoleto debido a que se maneja con cordenadas en la pantalla y actualmente tenemos celulares con distintos tamaños de pantalla pero si quieren hacer la prueba se escribe android:layout_x=\"50px\" al igual que en y</string>
+</resources>
