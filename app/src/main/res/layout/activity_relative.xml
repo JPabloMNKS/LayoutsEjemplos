@@ -83,7 +83,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Button01"
-        android:layout_toStartOf="@+id/null"
         android:text="CheckBox" />
 
 

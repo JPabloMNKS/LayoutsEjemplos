@@ -7,11 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".TableActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TableLayout
+     <TableLayout
             android:stretchColumns="*"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -43,7 +39,7 @@
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:0layout_height="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="4" />
 
                 <Button
@@ -128,7 +124,5 @@
                     android:text="Limpiar Todo" />
             </TableRow>
         </TableLayout>
-
-    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
